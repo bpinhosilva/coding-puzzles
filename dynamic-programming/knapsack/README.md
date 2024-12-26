@@ -18,6 +18,11 @@ You are given:
 
 The goal is to maximize the total value of the items in the knapsack without exceeding the weight capacity.
 
+* m[0, w] = 0
+* m[i, w] = m[i - 1, w] if w[i] > w
+* m[i, w] = max(m[i - 1, w], m[i - 1, w - w[i]] + v[i]) if w[i] <= w
+* The solution can be found at m[n, capacity]
+
 ## Example
 
 Consider the following example:
