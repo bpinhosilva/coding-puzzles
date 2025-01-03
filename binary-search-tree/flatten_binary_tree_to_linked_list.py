@@ -4,7 +4,7 @@ from bst_utils import BstUtils
 from tree_node import TreeNode
 
 """
-Description: https://leetcode.com/problems/path-sum
+Description: https://leetcode.com/problems/flatten-binary-tree-to-linked-list
 Time Complexity: O(n) 
 """
 
