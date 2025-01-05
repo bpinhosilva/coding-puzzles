@@ -39,7 +39,7 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
 
-    res = solution.threeSum([0, 0, 0, 0])
+    res = solution.threeSum([-1, 0, 1, 2, -1, -4])
 
     expected = [[-1, -1, 2], [-1, 0, 1]]
 
